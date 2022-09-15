@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    
+    <selection id="main-container">
+        <div id="title-box">
+            <h1 id="game-title">Rock • Paper • Scissors </h1>
+        </div>
+
+        <div id="human-select-box">
+            <img id="rock" class="images" src="images/rock.jpg" alt="rock" title="Rock">
+            <img id="paper" class="images" src="images/paper.jpeg" alt="paper" title="Paper">
+            <img id="scissors" class="images" src="images/scisssors.jpeg" alt="scissors" title="Scissors">
+
+        </div>
+
+        <div id="game-board">
+            <p id="computer-play-result">Versus against the <em><strong>AI</strong></em> by selecting the weapon of your choice above.
+            <span id='computer-result'><em></em></span></p>
+            <p id="game-result">[ Best of 5 ]</p>
+
+            <div>
+                <p class="score-board player"><img src="images/avatar.png" class="player-avatar"> : <span id="human-score">Ø</span></p>
+                <p class="score-board computer"><img src="images/robot.jpeg" class="computer-avatar"> : <span id="robot-score">Ø</span></p>
+            </div>
+        </div>
+
+        <div>
+            <img id="reset-icon" src="images/reset.jpeg" alt="reset icon" title="Reset Game">
+        </div>
+
+    </selection>
+    
+    <script src="code.js"></script>
+
+</body>
+</html>
